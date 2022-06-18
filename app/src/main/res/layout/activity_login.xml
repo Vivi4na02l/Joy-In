@@ -9,10 +9,11 @@
     tools:context=".scenes.login.LoginActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="310dp"
-        android:layout_height="117dp"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
 
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -20,35 +21,57 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.618">
 
+        <EditText
+            android:id="@+id/txtUsernameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginVertical="15px"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:inputType="text"
+            android:hint=" Username"
+            android:textColor="#515151"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <EditText
+            android:id="@+id/txtPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginVertical="15px"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:inputType="text"
+            android:hint=" Password"
+            android:textColor="#515151"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="126dp" />
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15px"
-            android:layout_weight="5"
             android:backgroundTint="#A520C5"
-            android:textColor="@android:color/white"
-            android:text="Login" />
+            android:text="Login"
+            android:textColor="@android:color/white" />
 
-        <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15px"
-            android:layout_weight="5"
-            android:backgroundTint="@android:color/white"
-            android:textColor="#A520C5"
-            android:text="Create an account" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtToRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_700"
-        android:text="enter as guest"
+        android:backgroundTint="@color/purplePink"
+        android:text="I don't have an account"
         android:textColor="#0800FF"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

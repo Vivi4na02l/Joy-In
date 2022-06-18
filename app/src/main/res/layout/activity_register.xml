@@ -29,24 +29,11 @@
             android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="text"
-            android:text="Username"
+            android:hint=" Username"
             android:textColor="#515151"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="126dp" />
 
-        <EditText
-            android:id="@+id/txtEmail"
-            android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_marginVertical="15px"
-            android:background="#FFFFFF"
-            android:backgroundTint="#FFFFFF"
-            android:ems="10"
-            android:inputType="text"
-            android:text="E-mail"
-            android:textColor="#515151"
-            tools:layout_editor_absoluteX="53dp"
-            tools:layout_editor_absoluteY="126dp" />
 
         <EditText
             android:id="@+id/txtPwd"
@@ -57,7 +44,7 @@
             android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="Password"
+            android:hint=" Password"
             android:textColor="#515151"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="126dp" />
@@ -70,14 +57,14 @@
             android:background="#FFFFFF"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:hint=" Confirm password"
             android:inputType="textPassword"
-            android:text="Confirm password"
             android:textColor="#515151"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="126dp" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15px"
