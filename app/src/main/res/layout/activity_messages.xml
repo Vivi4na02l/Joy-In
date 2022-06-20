@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4A4A4A"
-    tools:context=".scenes.home.HomeActivity">
+    tools:context=".scenes.message.MessagesActivity">
 
 
     <LinearLayout
@@ -58,21 +58,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_700"
-        android:text="Servers you're following"
-        android:textColor="#FFFFFF"
-        android:textSize="60px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.071" />
-
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
@@ -93,7 +78,7 @@
             android:backgroundTint="#3B3B3B"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/friends" />
+            app:srcCompat="@drawable/friends"/>
 
         <ImageButton
             android:id="@+id/btnHome"
@@ -102,7 +87,7 @@
             android:backgroundTint="#3B3B3B"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/homefilled" />
+            app:srcCompat="@drawable/home"/>
 
         <ImageButton
             android:id="@+id/btnMessages"
@@ -112,45 +97,7 @@
             android:backgroundTint="#3B3B3B"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/chat" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="match_parent"
-        android:layout_height="202dp"
-        android:layout_marginTop="1dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:background="@drawable/cod">
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Popular this week"
-        android:textColor="#FFFFFF"
-        android:textSize="60px"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="match_parent"
-        android:layout_height="202dp"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:layout_editor_absoluteX="0dp"
-        android:background="@drawable/among_us">
-        
+            app:srcCompat="@drawable/chatfilled"/>
     </LinearLayout>
 
 

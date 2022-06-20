@@ -51,8 +51,8 @@
             android:layout_marginTop="15px"
             android:layout_weight="5"
             android:backgroundTint="@android:color/white"
-            android:text="Create an account"
-            android:textColor="#A520C5" />
+            android:textColor="#A520C5"
+            android:text="Create an account" />
     </LinearLayout>
 
     <TextView

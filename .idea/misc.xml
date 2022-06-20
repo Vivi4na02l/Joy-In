@@ -3,15 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_friends.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_create_serv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_friends.xml" value="0.264" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_friends2.xml" value="0.1" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_home.xml" value="0.1543859649122807" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_loging_in.xml" value="0.1" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_messages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_messages.xml" value="0.1" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_perfil.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_settings.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/vivi4/AndroidStudioProjects/Joyin/app/src/main/res/layout/activity_settings.xml" value="0.264" />
       </map>
     </option>
   </component>

@@ -10,11 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Joyin">
         <activity
+            android:name=".scenes.newserv.CreateServActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scenes.friends.FriendsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scenes.message.MessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scenes.settings.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".scenes.register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".scenes.logingIn.LogingInActivity"
+            android:name=".scenes.register.MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.login.RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register" />
         <activity
             android:name=".scenes.home.HomeActivity"
             android:exported="false" />

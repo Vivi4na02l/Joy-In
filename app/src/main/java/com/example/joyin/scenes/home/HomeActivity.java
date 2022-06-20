@@ -18,15 +18,14 @@ import com.example.joyin.scenes.friends.FriendsActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private ImageButton btnSett, btnFriends;
-    private Button btnMessages;
+    private ImageButton btnSett, btnFriends, btnMessages;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnMessages = (Button) findViewById(R.id.btnMessages);
+        btnMessages = (ImageButton) findViewById(R.id.btnMessages);
         btnMessages.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -3,6 +3,7 @@ package com.example.joyin.dasources;
 import androidx.annotation.NonNull;
 
 import com.example.joyin.helpers.Callback;
+import com.example.joyin.scenes.register.RegisterActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
